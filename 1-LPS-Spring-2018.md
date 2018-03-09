@@ -11,34 +11,34 @@ Include any information related to the fabrication of equipment, experimental ap
 ### Lever Arm Perforation
 One of the first tasks the team had to complete was securing the lever arm onto the side of the entrance tank. At the beginning of the semester, the lever arm and entrance tank were still separate pieces as shown in Figures 1 and 2. At this point, the lever arm could slide into the hole in Figure 1 made on the attachment at the side of the entrance tank, but there was no way to ensure that the lever arm would not slide out of the hole.
 
-![Hole at side of entrance tank](https://photos.app.goo.gl/QzVMZvVbbzi6H7s33)
+![Hole at side of entrance tank](https://goo.gl/pCLGaa)
 Figure 1: There is a hole in the PVC bar attachment at the side of the entrance tank. This is where the lever arm slides in.
 
-![Lever Arm before](https://photos.app.goo.gl/vwRi7EAqTxyBxAW82)
+![Lever Arm before](https://goo.gl/LRuzK5)
 Figure 2: Pictured is the lever arm before modification. Note that there is no visible way of securing the lever arm in place after sliding the metal bar into the hole at the side of the entrance tank shown in Figure 1.
 
 The team consulted AguaClara Engineer Juan Guzman and determined that a perforation should be made in the metal bar of the lever arm so that a pin could be placed inside of it and act as a stopper as illustrated in Figure 3.
 
-![Lever Arm Schematic](https://photos.app.goo.gl/gcuF4lbcbVELAUw72)
-Figure 3: Shown is a schematic of how the lever arm should fit onto the entrance tank. There should be a perforation in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 1, a pin should be inserted into the perforation to secure the lever arm onto the entrance tank.
+![Lever Arm Schematic](https://goo.gl/UcBDZJ)
+Figure 3: A schematic of how the lever arm should fit onto the entrance tank. There should be a perforation in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 1, a pin should be inserted into the perforation to secure the lever arm onto the entrance tank.
 
 The team first found a piece to act as a pin and determined the size of it. The lever arm was brought to Timothy Brock in the Hollister Hall Machine Shop and perforated according to the size of the pin using a mill as shown in Figure 4. The pin fit snugly into the perforation as shown in Figure 5.
 
-![Lever Arm being perforated](https://photos.app.goo.gl/0Svr6cGOvz6PyiPJ3)
-Figure 4: Timothy Brock used a mill machine in the Machine Shop to perforate the metal bar.
+![Lever Arm being perforated](https://goo.gl/ugCoSD)
+Figure 4: Timothy Brock used a mill machine in the Machine Shop to perforate the metal bar. It was important that the piece was brought to Tim to perforate as a safety precaution as the team did not have experience working with drilling into metal.
 
-![Metal bar after perforation](https://photos.app.goo.gl/UaMVMCm7cPt1brKq2)
-Figure 5: The pin fit snugly into the perforation because the team had measured the pin beforehand and determined the size of it.
+![Metal bar after perforation](https://goo.gl/76k27u)
+Figure 5: Sung Min held up the finished perforation and pin design. The pin fit snugly into the perforation because the team had measured the pin beforehand and determined the size of it.
 
-##CDC Apparatus
+## CDC Apparatus
 During summer 2017, AguaClara fabricated a new design of the chemical dose controller (CDC). The original design can be found [here](https://www.overleaf.com/read/zfcbvtrykhwc#/28982452/) and the summer report [here](URL). The CDC system was designed to maintain a constant chemical dose to the treatment process as the plant flow rate and influent turbidity change. The main difference from the two designs is that slimmer PVC pipes were used. The current CDC system is incomplete for chlorination as shown in Figure x but is complete for the team's testing this semester.
 
 The CDC works in conjunction with the lever arm on the side of the entrance tank. The team has to ensure that the height of the lever arm when horizontal is the same as the coagulant level of the CDC when the float values are submerged. Because running the 1 L/s plant first with water was the priority, the team has not properly made sure that the heights were equal on the pole. The team plans to match the heights as shown in Figure x after assembling all the materials needed for the coagulant run.
 
-##1 L/s Plant Water Run
+## 1 L/s Plant Water Run
 The team's main focus was to run water through the 1 L/s plant, from the entrance tank to the flocculators. Ideally the team would run the plant with the EStaRs but because it had not been tested, the team is separately troubleshooting and water testing the EStaRs.
 
-##EStaRs Testing
+## EStaRs Testing
 According to the team that worked on the EStaRs filter during summer 2017, the filter had been water tested. The team added sand to the filter and checked the top and bottom filter seals. However, there are a few leaks in the welds under the exit tank and the team took apart the piping to check the inside welds as shown in Figure x.
 
 
