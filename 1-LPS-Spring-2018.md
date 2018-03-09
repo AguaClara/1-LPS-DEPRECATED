@@ -11,23 +11,28 @@ Include any information related to the fabrication of equipment, experimental ap
 ### Lever Arm Perforation
 One of the first tasks the team had to complete was securing the lever arm onto the side of the entrance tank. At the beginning of the semester, the lever arm and entrance tank were still separate pieces as shown in Figures 1 and 2. At this point, the lever arm could slide into the hole in Figure 1 made on the attachment at the side of the entrance tank, but there was no way to ensure that the lever arm would not slide out of the hole.
 
-![Hole at side of entrance tank](https://goo.gl/pCLGaa)
+<img src="https://goo.gl/pCLGaa" height=200>
+
 Figure 1: There is a hole in the PVC bar attachment at the side of the entrance tank. This is where the lever arm slides in.
 
-![Lever Arm before](https://goo.gl/LRuzK5)
+<img src="https://goo.gl/LRuzK5" height=200>
+
 Figure 2: Pictured is the lever arm before modification. Note that there is no visible way of securing the lever arm in place after sliding the metal bar into the hole at the side of the entrance tank shown in Figure 1.
 
 The team consulted AguaClara Engineer Juan Guzman and determined that a perforation should be made in the metal bar of the lever arm so that a pin could be placed inside of it and act as a stopper as illustrated in Figure 3.
 
-![Lever Arm Schematic](https://goo.gl/UcBDZJ)
+<img src="https://goo.gl/UcBDZJ" height=200>
+
 Figure 3: A schematic of how the lever arm should fit onto the entrance tank. There should be a perforation in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 1, a pin should be inserted into the perforation to secure the lever arm onto the entrance tank.
 
 The team first found a piece to act as a pin and determined the size of it. The lever arm was brought to Timothy Brock in the Hollister Hall Machine Shop and perforated according to the size of the pin using a mill as shown in Figure 4. The pin fit snugly into the perforation as shown in Figure 5.
 
-![Lever Arm being perforated](https://goo.gl/ugCoSD)
+<img src="https://goo.gl/ugCoSD" height=200>
+
 Figure 4: Timothy Brock used a mill machine in the Machine Shop to perforate the metal bar. It was important that the piece was brought to Tim to perforate as a safety precaution as the team did not have experience working with drilling into metal.
 
-![Metal bar after perforation](https://goo.gl/76k27u)
+<img src="https://goo.gl/76k27u" height=200>
+
 Figure 5: Sung Min held up the finished perforation and pin design. The pin fit snugly into the perforation because the team had measured the pin beforehand and determined the size of it.
 
 ## CDC Apparatus
