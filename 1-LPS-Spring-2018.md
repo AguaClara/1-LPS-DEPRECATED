@@ -36,16 +36,22 @@ Figure 4: Timothy Brock used a mill machine in the Machine Shop to perforate the
 Figure 5: Sung Min held up the finished perforation and pin design. The pin fit snugly into the perforation because the team had measured the pin beforehand and determined the size of it.
 
 ## CDC Apparatus
-During summer 2017, AguaClara fabricated a new design of the chemical dose controller (CDC). The original design can be found [here](https://www.overleaf.com/read/zfcbvtrykhwc#/28982452/) and the summer report [here](URL). The CDC system was designed to maintain a constant chemical dose to the treatment process as the plant flow rate and influent turbidity change. The main difference from the two designs is that slimmer PVC pipes were used. The current CDC system is incomplete for chlorination as shown in Figure x but is complete for the team's testing this semester.
+During summer 2017, AguaClara fabricated a new design of the chemical dose controller (CDC). The past research report can be found [here](https://www.overleaf.com/read/zfcbvtrykhwc#/28982452/). The CDC system was designed to maintain a constant chemical dose to the treatment process as the plant flow rate and influent turbidity change. The main difference from the two designs is that slimmer PVC pipes were used. The current CDC system is incomplete for chlorination but is complete for the team's testing this semester.
 
 The CDC works in conjunction with the lever arm on the side of the entrance tank. The team has to ensure that the height of the lever arm when horizontal is the same as the coagulant level of the CDC when the float values are submerged. Because running the 1 L/s plant first with water was the priority, the team has not properly made sure that the heights were equal on the pole. The team plans to match the heights as shown in Figure x after assembling all the materials needed for the coagulant run.
 
 ## 1 L/s Plant Water Run
-The team's main focus was to run water through the 1 L/s plant, from the entrance tank to the flocculators. Ideally the team would run the plant with the EStaRs but because it had not been tested, the team is separately troubleshooting and water testing the EStaRs.
+The team's main focus was to run water through the 1 L/s plant, from the entrance tank to the flocculators. Ideally the team would run the plant with the EStaRs but because it had not been tested, the team is separately troubleshooting and water testing the EStaRs (section below).
+
+The plant has been fully connected from the water source to the drain as shown in Figure 6. The testing has been postponed due to the problems in the DeFrees Lab's drain. The two drain pumps are broken and caused an influx of water to build up in the 16ft deep drainage. The majority of the water has been drained but there is sludge at the bottom that requires hazardous chemical testing. The testing and replacing of the pumps will take roughly two to three weeks.
+
+<img src="https://goo.gl/HYSY1c" height=400>
+Figure 6: Pictured is the tube connection between the top of the sedimentation tank to the drain. It is connected by a combination of pipes and elbows, reinforced tubing from the DeFrees laboratory, and two male couplings.
 
 ## EStaRs Testing
 According to the team that worked on the EStaRs filter during summer 2017, the filter had been water tested. The team added sand to the filter and checked the top and bottom filter seals. However, there are a few leaks in the welds under the exit tank and the team took apart the piping to check the inside welds as shown in Figure x.
 
+The team plans to weld the leaks and fully run water through in the coming week.
 
 ## Special Components
 If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
