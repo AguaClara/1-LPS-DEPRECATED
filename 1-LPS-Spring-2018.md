@@ -58,6 +58,7 @@ The plant has been fully connected from the water source to the drain as shown i
 
 <p style="text-align: center;">
 <img src="https://goo.gl/HYSY1c" height=400>
+
 Figure 7: Pictured is the tube connection between the top of the sedimentation tank to the drain. It is connected by a combination of pipes and elbows, reinforced tubing from the DeFrees laboratory, and two male couplings. </p>
 
 ## EStaRs Testing
