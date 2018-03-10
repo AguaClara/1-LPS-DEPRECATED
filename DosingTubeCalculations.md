@@ -54,3 +54,10 @@ print('The number of CDC tubes is ',NTube,'.')
 Something is wrong with this calculation (as of 2/23/18, 10am). I think this is due to the low flow rate of the plant. Will confirm with Monroe to figure out the issue. -Erica
 
 Issue was fixed (2/23/18, 12pm). Concentration of stock was originally incorrect. -Erica
+
+Thus, the calculations are as follows:
+- The length of the CDC tube is  0.4811 meter .
+- The diameter of the CDC tube is  0.0625 inch .
+- The number of CDC tubes is  1.0 .
+
+The smallest the diameter for the dosing tube that connects the tee fitting to the water influent is 1/4 in. This is big enough so that both water and air can flow freely through the tube, but small enough that the tube is not unnecessarily large.
