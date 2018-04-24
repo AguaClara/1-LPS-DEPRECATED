@@ -1,6 +1,6 @@
 ##Dosing Tube Calculations for 1LPS Plant
 ###Spring 2018
-####Erica Marroquin (em628), Sidney Lok (sgl38), Sung Min Kim (sk2795) [STL]
+####Erica Marroquin (em628)
 
 ```python
 from aide_design.play import*

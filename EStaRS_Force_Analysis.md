@@ -31,6 +31,8 @@ pressure_head = rho_water*g*total_head_available
 
 force_of_backwash = pressure_head*EStaRS_area
 
-print('The total force that backwash will exert on the manifolds is ',force_of_backwash.to(u.N),'. The force exerted on each manifold is ',(force_of_backwash.to(u.N))/7,'.')
+print('The total force that backwash will exert on the manifolds is
+      ,(force_of_backwash.to(u.N)),'. The force exerted on each manifold is
+      ,(force_of_backwash.to(u.N))/7,'.')
 ```
 The total force that backwash will exert on the manifolds is 679.8 newtons. Assuming that this force will be equally distributed over each of the seven manifolds, the force exerted on each manifold is 97.11 newtons. This is the force that each manifold will have to withstand.
