@@ -1,7 +1,7 @@
 # 1 LPS Plant Testing
 ### Manual
 #### Sung Min Kim, Sidney Lok, Erica Marroquin
-#### March 9, 2018
+#### April 27th, 2018
 
 <div class="alert alert-block alert-danger">
 Please do not delete my comments. Address them for the next submission and then I will use the comments to check for corrections. If you disagree with my comments, just add one below mine.
@@ -60,7 +60,7 @@ The team consulted AguaClara Engineer Juan Guzman and determined that a perforat
 I am confused on how the first two figures connect to this diagram? Do you use the holes already on the lever arm and entrance tank?
 </div>
 
-The team first found a piece to act as a pin and determined the size of it. The lever arm was brought to Timothy Brock in the Hollister Hall Machine Shop and perforated according to the size of the pin using a mill as shown in Figure 4. The pin fit snugly into the perforation as shown in Figure 5.
+The team first found a piece to act as a pin and determined the size of it. The size of the piece was unimportant as long as its diameter was smaller than that of the metal bar for the lever arm. The lever arm was brought to Timothy Brock in the Hollister Hall Machine Shop and perforated according to the size of the pin using a mill as shown in Figure 4. The pin fit snugly into the perforation as shown in Figure 5.
 
 <div class="alert alert-block alert-danger">
 Did you just pick any size? That's fine, just make sure that you say that any size will work.
@@ -114,7 +114,25 @@ This is a great figure, but consider labeling what the CDC and the entrance tank
 </div>
 
 ## Dosing Tube Calculations
-In order to get the proper flow rate of chemicals into the plant, the team needed to calculate the correct length and sizes for the dosing tubes. The yellow arrows in Figure 7, below, are pointing to the dosing tubes on the CDC apparatus. There are two types of dosing tubes that are two different diameters: the tube that connects the constant head tank (CHT) (which contains the chemical stock) to a tee fitting on the lever arm, and the tube that connects the tee fitting to the influent water coming into the plant. For information on how the CDC works, the most current research report can be found [here](https://www.overleaf.com/read/zfcbvtrykhwc#/28982452/).
+In order to get the proper flow rate of chemicals into the plant, the team needed to calculate the correct length and sizes for the dosing tubes. The yellow arrows in Figure 8, below, are pointing to the dosing tubes on the CDC apparatus. There are two types of dosing tubes that are two different diameters.
+
+The first tube connects the constant head tank (CHT), which contains the chemical stock, to a tee fitting on the lever arm. The CHT is a type of flow controller that maintains a constant water level in its tank. Its operation is governed by the Hagen-Poiseuille equation:
+
+$$ Q = \frac{h_f g \pi D^4}{128 \nu L} $$
+
+where $Q$ is flow rate, $h_f$ is the head difference between the water level in the constant head tank and the slider on the lever, $D$ is the diameter of the tubing, $\nu$ is the kinematic viscosity, and $L$ is the length of the tubing.
+
+
+The head difference can be changed by moving slider on the lever arm. A change in head, $h_f$, causes an increase in flow rate, $Q$, out of the CHT, therefore increasing the coagulant dosage to the plant. An image of the CHT is shown below, in figure 7. The CHT is the small container in the upper left corner of each figure.
+
+
+<p style="text-align: center;">
+<img src="https://github.com/AguaClara/1-LPS/blob/master/Images/CHT_Schem.png?raw=true" height=250>
+
+**Figure 7**: Constant head tank (CHT) shown with the rest of the chemical dosing controller. The difference in head can be shown with changing $H$. Images courtesy of Monroe Weber-Shirk, found [here](https://confluence.cornell.edu/display/cee4540/Syllabus).
+
+
+The second type of dosing tube connects the tee fitting to the influent water coming into the plant. For more information on how the CDC works, the most current research report can be found [here](https://www.overleaf.com/read/zfcbvtrykhwc#/28982452/).
 
 <div class="alert alert-block alert-danger">
 Good overview and visual describing this. Consider smaller sentences.
@@ -125,7 +143,7 @@ What is in the constant head tank?
 <p style="text-align: center;">
 <img src="https://lh3.googleusercontent.com/20Zywi62GK_FWBVXiSBk3w9ARaXnOekvCiRgvhNUBzK1bp8vCSlRYHnRbOEx3wFCFbr2ipZRw0FUVEUUu3Piaba5VNjIftrX8pgTSlenivrrG_u07VV0-NOFC34O_4RSqquy1phaOtySpeJtvqSVhxvILBzpURPNhuWazQykA_Yr2EvmhEbJHXDJIkY9hRHSqp-lSQwJeQxaNgTI0GOxqcevpIDYXgQXtEzuR-KjWh6Kr0pt-Zpqpgbo2GDKZcoETa9Q-ZvTezz0UI5f33BTi194Lz_ICQqVbtfqs5NH1YK1bbXNXHMlRRzdhhBNiFRctTAEw85R4GIqebG-ev3tQjK0dtZHkqXuUtr47eLnC6BaWIbgDlcd5TqQt_WR0XGOSGGMQp2xH9RQzr3JQEHJihIumjVcxLSzNrTWRevIgRawFjHrBeVMKR6dsGKXm2XfwmRWekgYZhMdS4zdjllDRXqtfzZ9dJmqYecOkonkO26k6BOmZARFQEAaJIg2KW4Bgf1yrcq1rdljRwxXi73KDgb7zvS_z5EzzEojDUbNlSJRGqlcpidZtXtZyFeeZK-Dxx3t_6cn2N0WcYTAoUN26S61AAO2TcF2k1wbeyXt-R6dVe6gN4Zhvgtt2idXKJLf4FlgzAqohtxALbwqkBvBCGN1XB0YA74M=w800-h600-no" height=400>
 
-**Figure 7:** A schematic of the CDC system, showing the entrance tank, lever arm, constant head tank, and the dosing tubes. The dosing tubes are highlighted by the yellow arrows.
+**Figure 8:** A schematic of the CDC system, showing the entrance tank, lever arm, constant head tank, and the dosing tubes. The dosing tubes are highlighted by the yellow arrows.
 
 </p>
 
@@ -139,6 +157,9 @@ The calculations for the length and diameter of these tubes were done using code
 
 The length of the CDC tube connecting the CHT to the tee fitting will be 0.4811 meters long and $\frac{1}{16}$ inches in diameter. The diameter of the tube connecting the tee fitting to the influent water will be $\frac{1}{4}$ inches.
 
+
+## CDC Plant Integration
+The CDC needed to be connected and integrated into the rest of the plant as shown previously in Figure 7. The chemicals would flow from the CHT to the slider on the lever arm and through the dosing tube to the plant. As determined in the section "Dosing Tube Calculations", the size of the dosing tube connecting the CHT to the lever arm needed to be $\frac{1}{16}$ inches in diameter and the dosing tube $\frac{1}{4}$ inches. A plastic tee was acquired to connect the two dosing tubes
 
 ## 1 LPS Plant Water Run
 The teams main focus was to run water completely through the 1 LPS plant. Ideally the team would run the plant with the EStaRS filter but because it had not been tested, the team is separately troubleshooting and water testing the EStaRS.
@@ -160,7 +181,7 @@ Do you intend to continue testing the plant once it is fixed?
 <p style="text-align: center;">
 <img src="https://goo.gl/HYSY1c" height=400>
 
-**Figure 8:** Pictured is the tube connection between the top of the sedimentation tank to the drain. It is connected by a combination of pipes and elbows, reinforced tubing from the DeFrees laboratory, and two male couplings. </p>
+**Figure 9:** Pictured is the tube connection between the top of the sedimentation tank to the drain. It is connected by a combination of pipes and elbows, reinforced tubing from the DeFrees laboratory, and two male couplings. </p>
 
 ## EStaRS Testing
 The EStaRS filter was built in Spring 2017 with the purpose of accompanying the 1 LPS plant. The information used by the 1 LPS team to assemble the filter was found in the EStaRS Spring 2017 research report, found [here](https://www.overleaf.com/8262051cfnxfzxkmnsp#/29239180/).
@@ -253,4 +274,4 @@ The contact information for the Spring 2018 1 LPS Plant Testing Team is as follo
 - Sidney Lok, EnvE '19
   - sgl38
 - Erica Marroquin, EnvE '18
-  - em629
+  - em628
