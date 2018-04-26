@@ -170,7 +170,7 @@ Revise and check for writing errors.
 Consider "The team will test the EStaRS filter before connecting it to the rest of the 1 LPS for full plant testing." Try to think about the purpose and clarity of every sentence that you write.
 </div>
 
-The plant has been fully connected from the water source to the drain as shown in Figure 8. The testing has been postponed due to the problems in the DeFrees Lab's drain. The two drain pumps are broken and caused an influx of water to build up in the 16 ft deep drainage pit. The majority of the water has been drained but there is sludge at the bottom that requires hazardous chemical testing. The testing and replacing of the pumps will take roughly two to three weeks.
+The plant has been fully connected from the water source to the drain as shown in Figure 9. The testing has been postponed due to the problems in the DeFrees Lab's drain. The two drain pumps are broken and caused an influx of water to build up in the 16 ft deep drainage pit. The majority of the water has been drained but there is sludge at the bottom that requires hazardous chemical testing. The testing and replacing of the pumps will take roughly two to three weeks.
 
 <div class="alert alert-block alert-danger">
 Avoid passive voice.
@@ -191,6 +191,8 @@ This implies that this filter was made (for the first time) in 2017. It was desi
 
 What is the EStaRS?
 </div>
+
+answer.
 
 The EStaRS filter had been previously tested for water-tightness, however, when the 1 LPS team tested it, there were leaks in the welds under the exit tank. The team took apart the piping to check the inside welds.
 
