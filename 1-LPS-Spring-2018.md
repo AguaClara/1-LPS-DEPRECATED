@@ -8,22 +8,35 @@ Please do not delete my comments. Address them for the next submission and then 
 </div>
 
 ## Introduction
-The goal of the 1 Liter per Second (1 LPS) Plant Testing team this semester is to complete the fabrication of the current plant and to test the plants performance. The performance testing will be done using clay and coagulant to mimic real-world conditions. The plant will also be connected to the newly built Enclosed Stacked Rapid Sand (EStaRS) filter, in order to test the functionality of the 1 LPS plant as a full water treatment train including flocculation, sedimentation, and filtration.
+The goal of the 1 Liter per Second (1 LPS) Plant Testing team this semester is to complete the fabrication of the current plant and to test the plant's performance. In Fall 2016, the 1 L/s Plant was developed based on AguaClara technology to bring sustainable water treatment to communities with smaller needs (300 people per plant). The team's mission is to create inexpensive plants that treat at a flowrate of 1 liter per second for small towns and villages that do not have the means to finance surface water treatment due to upfront costs.
 
-At the time of the first report, the team set up and finalized the smaller parts of the plant. Parts of the chemical dose controller (CDC) needed to be adjusted; the lever arm in the entrance tank needed to be installed as well as the dosing tubes connecting the CDC to the plant influent.
+Currently, the 1 LPS plant consists of an entrance tank, flocculator and sedimentation tank. The performance testing will be done using clay and coagulant to mimic real-world conditions, following traditional AguaClara concentrations. In addition to plant testing, the team has been fixing the Enclosed Stacked Rapid Sand (EStaRS) filter in order to observe differences in NTU results and to complete the full water treatment train (flocculation, sedimentation and filtration). However, for now, the plant is being run without the EStaRS as the filter itself has not been performance tested. The EStaRS in the DeFrees Lab was built in Spring and Summer 2017 (refer below to EStaRS Testing) but had only been fabricated and minimally water tested.
+
+From the beginning of March to mid April, the DeFrees Lab was under maintenance due to a build up of water and sludge in the drain. Initially, the team thought the lab would be closed for two weeks but because this classified as an administrative and safety issue, the lab was closed for roughly six weeks. Because the lab was closed, the team was unable to water test or set up performance testing in those weeks and thus, this report lacks significant research data.
 
 <div class="alert alert-block alert-danger">
 Include little history of the 1 L/s and an explanation of what it is/does
+-addressed
 
 Is the 1 L/s plant just the sed tank and the flocculator and is the EStaRS filter separate?
+-addressed
 
 Give an update on what has been done for the filter so far and the final steps that you need to do to complete it. Refer to where they can find information on past semester's work.
+-addressed in EStaRS Testing Section
 
 Remember that your audience is a new team member trying to learn about what past research has been collected!
 </div>
 
 ## Lever Arm Perforation
-One of the first tasks the team had to complete was securing the lever arm onto the side of the entrance tank. At the beginning of the semester, the lever arm and entrance tank were still separate pieces as shown in Figures 1 and 2. At this point, the lever arm could slide into the hole in Figure 1 made on the attachment at the side of the entrance tank, but there was no way to ensure that the lever arm would not slide out of the hole.
+One of the first tasks the team had to complete was securing the lever arm onto the side of the entrance tank. The lever arm is a piece of equipment attached to the side of the entrance tank that allows plant operators to control the dosage of the coagulant going into the influent water. As pictured in Figure 1, the lever arm consists of a slider on the lever arm that is the moving component controlling the chemical dosage and a metal bar at the back that fits into the hole at the side of the entrance tank pictured in Figure 2.
+
+
+<p style = "text-align: center;">
+<img src="https://lh3.googleusercontent.com/5ibBhpuYDUKgG0a7J4m_8VC_peNkDPJXO1VSQqsHB0kBS2Gx3g0x9MvcqGzcs4nFANwuIas9YDc5-mSrL5xCIH4OhEQFtrOZsGVcvNOn0EB7H4hnbqCJB7TS5iUjYCGJNV5iSdt_Q-EcoJVoMTPG_5hAuiDIbModL_DUCgvOA1GqFJqteZfOSJO1Mvt0HC3UNAt2JQlaGMbavU0nu6xCxtcrh4ie5MY366PCxWcqCMhGvTqI8ZtwutQ4xB0x-DstIDALPvjDBp5qpj0EN-fP2XgJAYPTOPOQ-vkmWUHtWB0r1ZVkHGYECgr-kvBoxk6eCmidGzGlmEWSgxXbIl4EUBpPYPFX6ZKs6KaiUpHToBfwJiEus-Oqd4lVihllj9ZoCNfUa2ibVKL7Cz309dCxlOuXPPPgi_Zk3MlbqNU7z0OcsksRXaMbRP6Vntyd-LsvHClWYY8Qi0y1h6gDoeSEjvCnF11cdVBac_YJtP-LGK3aItSZXltP-PHbX91ysS5WaocfQGDqUbFNco8kuQAB_jzAeuAmxcdABFgBgkdUVeEFw4ezIcUP183MvYaHAZiwIaAvVkFwyVU31u7uPNVQT-jODxD8NLwVhGX_8h6mHZ_BizkTHBRmLvfcHvuD4xJLLcvmWK7Q47rRFicsqVbZVkjYgA=w697-h567-no" height=400>
+
+**Figure 1:** Pictured is the lever arm before modification. Note that there is no visible way of securing the lever arm in place after sliding the metal bar into the hole at the side of the entrance tank shown in Figure 1 (circled in red). </p>
+
+At the beginning of the semester, the lever arm and entrance tank were still separate pieces as shown in Figures 1 and 2. At this point, the lever arm could slide into the hole in Figure 2 made on the attachment at the side of the entrance tank, but there was no way to ensure that the lever arm would not slide out of the hole.
 
 <div class="alert alert-block alert-danger">
 What is the purpose of the lever arm? What does it do?
@@ -32,18 +45,14 @@ Consider including a schematic to show how these relate here so that readers can
 </div>
 
 <p style = "text-align: center;">
-<img src="https://goo.gl/pCLGaa" height=400>
+<img src="https://lh3.googleusercontent.com/vKtpflOiv0CtCkVOl4nRjsgFmXuC1xMxKBSR9OT8_StB_pgxxzGUSItWRZJqdvxQSGTcGKH72KsC5kFeTaafBQOHVqUHBPr8HSGmjLseLKTiKJKy9PEd05T_sGGFIqQsffOhc7TRwWRK-1v20QMadhU2yNdeljxvhiPfy0zqt2i-kQfJp2YoKBtE-DCE-x2pNTKXHgvaqlBX7XI-_jmA9Iro_T37PtUnbsEeNWId76WtDIxq94rosUn-iZ1gZPF16ozS6c9NxM6f_qMPCyroBzrCdNGAYHRr0LtfqeERGzhRZD-cUDElNx5kWdx9r9JrHg3Cg3FZjTKf62vNKR1EJnKYw36FUh16mkKF1HEcOQy7esZcfTIVFItmno8hqFUTBsd02otsIA5HV___CoLSmdfoIZta3fENzEvAS1A3z0ne2SQ96yMljy9_BVnzyjVLA_6hKgT86UsiExWz11D30DCvRNtNkTzlsV-KHOHxAnrAVPTu3RSQMj-1fyhp2RRkn75jBYjOuOe64ZM0Ez4URMgQ4O9xe0QRgLjWc3BISvuU-9LqsNu83OPoIUZhB9hdyEtycgLLKfctKxHHczdhg2ZToUe7BIzfQlH5Z8wqdh734yFanyurBmEUBTYm3hqweIb6XiRec5MDM87VGLb9XIECQw=w521-h568-no" height=400>
 
-**Figure 1:** There is a hole in the PVC bar attachment at the side of the entrance tank. This is where the lever arm slides in. </p>
+**Figure 2:** There is a hole (circled in red) in the PVC bar attachment at the side of the entrance tank. This is where the lever arm slides in. </p>
 
 <div class="alert alert-block alert-danger">
-Good idea to use a visual, but this angle is difficult to understand because it's upside down and on it's side. Is there are way to take a photo of it in the normal orientation so that the reader can understand what's going on easier?
+Good idea to use a visual, but this angle is difficult to understand because it's upside down and on it's side. Is there are way to take a photo of it in the normal orientation so that the reader can understand what's going on easier? -addressed
 </div>
 
-<p style = "text-align: center;">
-<img src="https://goo.gl/LRuzK5" height=400>
-
-**Figure 2:** Pictured is the lever arm before modification. Note that there is no visible way of securing the lever arm in place after sliding the metal bar into the hole at the side of the entrance tank shown in Figure 1. </p>
 
 <div class="alert alert-block alert-danger">
 Consider labeling important parts because how would a reader know how it connects?
@@ -54,16 +63,18 @@ The team consulted AguaClara Engineer Juan Guzman and determined that a perforat
 <p style = "text-align: center;">
 <img src="https://goo.gl/UcBDZJ" height=400>
 
-**Figure 3:** A schematic of how the lever arm should fit onto the entrance tank. There should be a perforation in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 1, a pin should be inserted into the perforation to secure the lever arm onto the entrance tank. </p>
+**Figure 3:** A schematic of how the modified lever arm fitted ed onto the entrance tank. There was be a perforation made in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 2, a pin was inserted into the perforation to secure the lever arm onto the entrance tank. </p>
 
 <div class="alert alert-block alert-danger">
 I am confused on how the first two figures connect to this diagram? Do you use the holes already on the lever arm and entrance tank?
+</div>
+<div class="alert alert-block alert-danger"> I am not sure how to address this issue. I think the new images for Figures 1 and 2 may solve the confusion? -Sidney
 </div>
 
 The team first found a piece to act as a pin and determined the size of it. The size of the piece was unimportant as long as its diameter was smaller than that of the metal bar for the lever arm. The lever arm was brought to Timothy Brock in the Hollister Hall Machine Shop and perforated according to the size of the pin using a mill as shown in Figure 4. The pin fit snugly into the perforation as shown in Figure 5.
 
 <div class="alert alert-block alert-danger">
-Did you just pick any size? That's fine, just make sure that you say that any size will work.
+Did you just pick any size? That's fine, just make sure that you say that any size will work. -addressed
 </div>
 
 <p style = "text-align: center;">
@@ -79,6 +90,8 @@ Did you just pick any size? That's fine, just make sure that you say that any si
 <div class="alert alert-block alert-danger">
 Avoid pictures with humans as it is less professional (cute picture though so this one can stay)
 </div>
+<div class="alert alert-block alert-danger">
+We will avoid it next time :) -Sidney </div>
 
 ## CDC Apparatus
 During Spring 2017, AguaClara fabricated a new design of the chemical dose controller (CDC). The past research report can be found [here](https://www.overleaf.com/read/zfcbvtrykhwc#/28982452/). The CDC system was designed to maintain a constant chemical dose to the treatment process as the plant flow rate and influent turbidity change. The main difference from the old design and the new is that slimmer PVC pipes were used in the new design. The current CDC system is incomplete for chlorination but is complete for coagulation, which the team is testing this semester.
@@ -160,30 +173,40 @@ The length of the CDC tube connecting the CHT to the tee fitting will be 0.4811 
 
 ## CDC Plant Integration
 The CDC needed to be connected and integrated into the rest of the plant as shown previously in Figure 7. The chemicals would flow from the CHT to the slider on the lever arm and through the dosing tube to the plant. As determined in the section "Dosing Tube Calculations", the size of the dosing tube connecting the CHT to the lever arm needed to be $\frac{1}{16}$ inches in diameter and the dosing tube $\frac{1}{4}$ inches. A plastic tee was acquired to connect the two dosing tubes to the lever arm as shown in Figure 9. The tee acquired was a $\frac{1}{4}$ inch female connector.
+<p style="text-align: center;">
+<img src="
+https://lh3.googleusercontent.com/ZW035qZku59gDco-FifwB5iBlsX9wobOL4MU-02HyBIExUmsEBB9UqA1aMl5OZBCjr15HimHnyDwu1-Jn2D4HK8_sxEtVwJ_AJRT9xgnYA1y7-Bl_jbe05tkIDAGvY7MH68yaVX9DNvUfFWYIGV_ACrB9m2b9jHI3ROyKGLnXdw5dcr0YOr8GyoNT7xqVafY_SoB_DOGoztKii6WJ0uCzu5492V0CG2fA_PDlHQ7WErYefzFVmuWi-ZfS2jHl8iuFNb8dpPjuGB9hccFBxs4SJYl5yGIDP5BuhaOlVwC2f2T7WLrcgCRqkE7zizdf-txI8C60twCDfsiuZKMP98cCKueJesFwOf_q9qrE0jSC5Ert73XY-dgiWjUjkd-KO0EGqJ9g8GXX9a0y0dhd_obVVPVeGOzNjNpyOmS8tGz96iHEzDjbF3GSaMuseZrwEOBTtlq37LC4wRvdhzeveJyQUgUglimHnuyHA69OfOrBZYBe1MvrlIt7d_qdVFO_kjmz5sQjCvCNtjZFlwGUDnvy0rLodoMEzEvR6UmkuIUXh08l-bwLWN4nl65EJPDlR1Vo7P7VQIyz5TBlgnEBLT7bIF-5u5RahZ7XL0iWiYfHCH4kREPN1aQMXAfrPKe5HLV_X2H30SxR9N-vTMXbalLngcxBRQ05H4=w930-h1240-no">
+**Figure 9:** The tee connector was attached to the slider on the lever arm with a flat-headed screw.
 
 A hole was drilled into the side of the connector to piece a flat-headed screw through it and attach it to the slider on the lever arm. The dosing tubes had barbed fittings to make water-tight connections to the tee connector. The larger diameter dosing tube connected right above the rapid mix of the first leg of the flocculator. The team drilled a $\frac{1}{4}$ inch hole into the side of the first leg of the flocculator at an arbitrary height above the rapid mix and tapped it as shown in Figure 10.
 
+<p style="text-align: center;">
+<img src="https://lh3.googleusercontent.com/h3tEFfngtTr7oEXppgeOCvuw0W1SvGjiWP1rAIxB_mYx1gQn4erwn2dgjg241l4PNvmuDTBUSQ7jO6GYkGs-9vLmio2FG9cMDC2eEubgu8ZhCTo-umcbtsSkTK-U7AyQLe-kXutWeYHabI3gNapd4hOJoNzvH_V6C3KG2N2pbqGKbSEj1kxRtFTa_5E8cWSHnazoqTTRM6KSSQx6uBXsEq2nni9KO61bjSzDeEU42O26nVvv4EzNmxtCLgKlhx3_0oG6DTLnlcm6D1FeYqwfKDqYwLVumkk4kGeIpOvV2Sj6FUzDiVuehg1F_6ILdTixNfwpSWEBFzsbelIPPU3TqNWfqS1OaFAFjUV1QAT4U2NQkUZJe1pMuj8Rhgy7BEpF-t9_03ReuHNsgzxAR2TazeWUO4AkWYurWexbkjNrUitSXHRNCfN2pmuCeznblwropsJYKcWtihucnKNlTASlhebBGnCdnQomC4ZHCZFBWReAg73ku2cSiVUqwiomS9jgT6BJO0i5deQxc0W21S9McdX6-f71bxDAwfihPTwDARhTmv2IDcDn0763rjWApOQjL32ejlcsdITNQtBJrNgWs9j7knP5SBUD9SkrWW5P0tFtRTbcqJs4ReXRflhK0tXSjsseOjmKeEqWkAvPz8TIlnFi4VaWqRE=w423-h557-no">
+**Figure 10:** The barbed fitting connecting the dosing tube to the first leg of the flocculator is circled in red.
+
 ## 1 LPS Plant Water Run
-The teams main focus was to run water completely through the 1 LPS plant. Ideally the team would run the plant with the EStaRS filter but because it had not been tested, the team is separately troubleshooting and water testing the EStaRS.
+The team's main focus was to run water completely through the 1 LPS plant. Depending on the progress of EStaRS testing, the team would like to run the plant with the filter to observe changes in the NTU results.
+
+The plant has been fully connected to the water source and the drain since March as shown in Figure 8. Once the DeFrees Lab was cleared, the team water tested the plant and welded two minor leaks at the inlet and outlet. The plant is ready to go through its coagulant run.
 
 <div class="alert alert-block alert-danger">
 Revise and check for writing errors.
+-sorry and addressed.
 
 Consider "The team will test the EStaRS filter before connecting it to the rest of the 1 LPS for full plant testing." Try to think about the purpose and clarity of every sentence that you write.
 </div>
-
-The plant has been fully connected from the water source to the drain as shown in Figure 8. The testing has been postponed due to the problems in the DeFrees Lab's drain. The two drain pumps are broken and caused an influx of water to build up in the 16 ft deep drainage pit. The majority of the water has been drained but there is sludge at the bottom that requires hazardous chemical testing. The testing and replacing of the pumps will take roughly two to three weeks.
 
 <div class="alert alert-block alert-danger">
 Avoid passive voice.
 
 Do you intend to continue testing the plant once it is fixed?
+-addressed
 </div>
 
 <p style="text-align: center;">
 <img src="https://goo.gl/HYSY1c" height=400>
 
-**Figure 9:** Pictured is the tube connection between the top of the sedimentation tank to the drain. It is connected by a combination of pipes and elbows, reinforced tubing from the DeFrees laboratory, and two male couplings. </p>
+**Figure 11:** Pictured is the tube connection between the top of the sedimentation tank to the drain. It is connected by a combination of pipes and elbows, reinforced tubing from the DeFrees laboratory, and two male couplings. </p>
 
 ## EStaRS Testing
 The EStaRS filter was built in Spring 2017 with the purpose of accompanying the 1 LPS plant. The information used by the 1 LPS team to assemble the filter was found in the EStaRS Spring 2017 research report, found [here](https://www.overleaf.com/8262051cfnxfzxkmnsp#/29239180/).
