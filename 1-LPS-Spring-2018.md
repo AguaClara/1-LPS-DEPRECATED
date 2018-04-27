@@ -58,12 +58,12 @@ Good idea to use a visual, but this angle is difficult to understand because it'
 Consider labeling important parts because how would a reader know how it connects?
 </div>
 
-The team consulted AguaClara Engineer Juan Guzman and determined that a perforation should be made in the metal bar of the lever arm so that a pin could be placed inside of it and act as a stopper as illustrated in Figure 3.
+The team determined that a perforation should be made in the metal bar of the lever arm so that a pin could be placed inside of it and act as a stopper as illustrated in Figure 3.
 
 <p style = "text-align: center;">
 <img src="https://goo.gl/UcBDZJ" height=400>
 
-**Figure 3:** A schematic of how the modified lever arm fitted ed onto the entrance tank. There was be a perforation made in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 2, a pin was inserted into the perforation to secure the lever arm onto the entrance tank. </p>
+**Figure 3:** A schematic of how the modified lever arm fits into the entrance tank. There was a perforation made in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 2, a pin was inserted into the perforation to secure the lever arm onto the entrance tank. </p>
 
 <div class="alert alert-block alert-danger">
 I am confused on how the first two figures connect to this diagram? Do you use the holes already on the lever arm and entrance tank?
@@ -71,7 +71,7 @@ I am confused on how the first two figures connect to this diagram? Do you use t
 <div class="alert alert-block alert-danger"> I am not sure how to address this issue. I think the new images for Figures 1 and 2 may solve the confusion? -Sidney
 </div>
 
-The team first found a piece to act as a pin and determined the size of it. The size of the piece was unimportant as long as its diameter was smaller than that of the metal bar for the lever arm. The lever arm was brought to Timothy Brock in the Hollister Hall Machine Shop and perforated according to the size of the pin using a mill as shown in Figure 4. The pin fit snugly into the perforation as shown in Figure 5.
+The team first found a piece to act as a pin and determined the size of it. The size of the piece was unimportant as long as its diameter was smaller than that of the metal bar for the lever arm. The lever arm was perforated according to the size of the pin using a mill as shown in Figure 4. The pin fit snugly into the perforation as shown in Figure 5.
 
 <div class="alert alert-block alert-danger">
 Did you just pick any size? That's fine, just make sure that you say that any size will work. -addressed
@@ -80,7 +80,7 @@ Did you just pick any size? That's fine, just make sure that you say that any si
 <p style = "text-align: center;">
 <img src="https://goo.gl/ugCoSD" height=400>
 
-**Figure 4:** Timothy Brock used a mill machine in the Machine Shop to perforate the metal bar. It was important that the piece was brought to Tim to perforate as a safety precaution as the team did not have experience working with drilling into metal. </p>
+**Figure 4:** A mill machine in the Machine Shop was used to perforate the metal bar. It was important that the piece was brought to the shop to perforate as a safety precaution because the team did not have experience working with drilling into metal. </p>
 
 <p style = "text-align: center;">
 <img src="https://goo.gl/76k27u" height=400>
@@ -129,14 +129,14 @@ This is a great figure, but consider labeling what the CDC and the entrance tank
 ## Dosing Tube Calculations
 In order to get the proper flow rate of chemicals into the plant, the team needed to calculate the correct length and sizes for the dosing tubes. The yellow arrows in Figure 8, below, are pointing to the dosing tubes on the CDC apparatus. There are two types of dosing tubes that are two different diameters.
 
-The first tube connects the constant head tank (CHT), which contains the chemical stock, to a tee fitting on the lever arm. The CHT is a type of flow controller that maintains a constant water level in its tank. Its operation is governed by the Hagen-Poiseuille equation:
+The first tube connects the constant head tank (CHT), which contains the chemical stock, to a tee fitting on the lever arm. The CHT is a type of flow controller that maintains a constant chemical level in its tank. The level is maintained by a float valve connected to a larger stock tank above. Its operation is governed by the Hagen-Poiseuille equation:
 
 $$ Q = \frac{h_f g \pi D^4}{128 \nu L} $$
 
 where $Q$ is flow rate, $h_f$ is the head difference between the water level in the constant head tank and the slider on the lever, $D$ is the diameter of the tubing, $\nu$ is the kinematic viscosity, and $L$ is the length of the tubing.
 
 
-The head difference can be changed by moving slider on the lever arm. A change in head, $h_f$, causes an increase in flow rate, $Q$, out of the CHT, therefore increasing the coagulant dosage to the plant. An image of the CHT is shown below, in figure 7. The CHT is the small container in the upper left corner of each figure.
+The head difference can be changed by moving the slider on the lever arm. A change in head, $h_f$, causes an increase in flow rate, $Q$, out of the CHT, therefore increasing the coagulant dosage to the plant. An image of the CHT is shown below, in Figure 7. The CHT is the small container in the upper left corner of each figure.
 
 
 <p style="text-align: center;">
@@ -151,6 +151,8 @@ The second type of dosing tube connects the tee fitting to the influent water co
 Good overview and visual describing this. Consider smaller sentences.
 
 What is in the constant head tank?
+
+Addressesd.
 </div>
 
 <p style="text-align: center;">
@@ -160,10 +162,33 @@ What is in the constant head tank?
 
 </p>
 
-The tube that connects the CHT to the tee fitting on the lever arm needs to be a very small diameter. This is so that major losses will dominate within the tube over the calculated length, leading to the proper flow rate out of the tube. The tube that connects the tee fitting to the influent water needs to be big enough that surface tension will not dominate within the tube, and water and air can flow freely through the tube.
+The relationship between the flow of the plant and the coagulant dosage needs to be linear in order to be effective. This means that the relationship between flow rate and head loss needs to be linear. The actual head in the dose controller is due to both major and minor losses. In order for the relationship to remain linear, major losses need to dominate, as shown below in Figure 9.
+
+![LinearRelationship](https://github.com/AguaClara/1-LPS/blob/master/Images/LinearRelationshipCDC.png?raw=true)
+
+**Figure 9**: Flow rate versus head loss while varying types of head loss. Images courtesy of Monroe Weber-Shirk, found [here](https://confluence.cornell.edu/display/cee4540/Syllabus).
+
+Head loss due to friction, $h_f$, also known as major losses, is
+
+$$ h_f = \frac{128 \nu Q L}{g \pi D^4} $$
+
+Head loss due to expansions, $h_e$, also known as minor losses, is
+
+$$ h_e = \frac{8 Q^2}{g (\pi)^2 D^4} \sum K_e $$
+
+The equation for the actual head loss is shown below, which is a combination of both major and minor losses. This is shown as the blue line in figure 9.
+
+$$ h_L (Q) = (\frac{128 \nu L}{g \pi D^4} + \frac{8Q}{g (\pi)^2 D^4} \sum K_e) Q $$
+
+By minimizing the amount of expansions or contractions in the dose controller tubing, as well as creating more friction by decreasing diameter, $D$, major losses will dominate.
+
+Therefore, the tube that connects the CHT to the tee fitting on the lever arm needs to be a very small diameter. Major losses will then dominate within the tube over the calculated length, leading to the proper flow rate out of the tube. The tube that connects the tee fitting to the influent water needs to be big enough that surface tension will not dominate within the tube, and
+water and air can flow freely through the tube.
 
 <div class="alert alert-block alert-danger">
 Great! Consider describing the difference between minor and major losses and including the equations in LaTeX here to show how this statement is backed up by the math.
+
+Addressed.
 </div>
 
 The calculations for the length and diameter of these tubes were done using code written by the [AguaClara Infrastructure Design Engine (AIDE) team](https://github.com/AguaClara/aide_design). The code can be found below in the section "Dosing Tube Calculations" under "Python Code."
@@ -172,16 +197,18 @@ The length of the CDC tube connecting the CHT to the tee fitting will be 0.4811 
 
 
 ## CDC Plant Integration
-The CDC needed to be connected and integrated into the rest of the plant as shown previously in Figure 7. The chemicals would flow from the CHT to the slider on the lever arm and through the dosing tube to the plant. As determined in the section "Dosing Tube Calculations", the size of the dosing tube connecting the CHT to the lever arm needed to be $\frac{1}{16}$ inches in diameter and the dosing tube $\frac{1}{4}$ inches. A plastic tee was acquired to connect the two dosing tubes to the lever arm as shown in Figure 9. The tee acquired was a $\frac{1}{4}$ inch female connector.
+The CDC needed to be connected and integrated into the rest of the plant as shown previously in Figure 6. The chemicals would flow from the CHT to the slider on the lever arm and through the dosing tube to the plant. As determined in the section "Dosing Tube Calculations", the size of the dosing tube connecting the CHT to the lever arm needed to be $\frac{1}{16}$ inches in diameter and the dosing tube $\frac{1}{4}$ inches. A plastic tee was acquired to connect the two dosing tubes to the lever arm as shown in Figure 9. The tee acquired was a $\frac{1}{4}$ inch female connector.
 <p style="text-align: center;">
 <img src="
 https://lh3.googleusercontent.com/ZW035qZku59gDco-FifwB5iBlsX9wobOL4MU-02HyBIExUmsEBB9UqA1aMl5OZBCjr15HimHnyDwu1-Jn2D4HK8_sxEtVwJ_AJRT9xgnYA1y7-Bl_jbe05tkIDAGvY7MH68yaVX9DNvUfFWYIGV_ACrB9m2b9jHI3ROyKGLnXdw5dcr0YOr8GyoNT7xqVafY_SoB_DOGoztKii6WJ0uCzu5492V0CG2fA_PDlHQ7WErYefzFVmuWi-ZfS2jHl8iuFNb8dpPjuGB9hccFBxs4SJYl5yGIDP5BuhaOlVwC2f2T7WLrcgCRqkE7zizdf-txI8C60twCDfsiuZKMP98cCKueJesFwOf_q9qrE0jSC5Ert73XY-dgiWjUjkd-KO0EGqJ9g8GXX9a0y0dhd_obVVPVeGOzNjNpyOmS8tGz96iHEzDjbF3GSaMuseZrwEOBTtlq37LC4wRvdhzeveJyQUgUglimHnuyHA69OfOrBZYBe1MvrlIt7d_qdVFO_kjmz5sQjCvCNtjZFlwGUDnvy0rLodoMEzEvR6UmkuIUXh08l-bwLWN4nl65EJPDlR1Vo7P7VQIyz5TBlgnEBLT7bIF-5u5RahZ7XL0iWiYfHCH4kREPN1aQMXAfrPKe5HLV_X2H30SxR9N-vTMXbalLngcxBRQ05H4=w930-h1240-no">
+
 **Figure 9:** The tee connector was attached to the slider on the lever arm with a flat-headed screw.
 
 A hole was drilled into the side of the connector to piece a flat-headed screw through it and attach it to the slider on the lever arm. The dosing tubes had barbed fittings to make water-tight connections to the tee connector. The larger diameter dosing tube connected right above the rapid mix of the first leg of the flocculator. The team drilled a $\frac{1}{4}$ inch hole into the side of the first leg of the flocculator at an arbitrary height above the rapid mix and tapped it as shown in Figure 10.
 
 <p style="text-align: center;">
 <img src="https://lh3.googleusercontent.com/h3tEFfngtTr7oEXppgeOCvuw0W1SvGjiWP1rAIxB_mYx1gQn4erwn2dgjg241l4PNvmuDTBUSQ7jO6GYkGs-9vLmio2FG9cMDC2eEubgu8ZhCTo-umcbtsSkTK-U7AyQLe-kXutWeYHabI3gNapd4hOJoNzvH_V6C3KG2N2pbqGKbSEj1kxRtFTa_5E8cWSHnazoqTTRM6KSSQx6uBXsEq2nni9KO61bjSzDeEU42O26nVvv4EzNmxtCLgKlhx3_0oG6DTLnlcm6D1FeYqwfKDqYwLVumkk4kGeIpOvV2Sj6FUzDiVuehg1F_6ILdTixNfwpSWEBFzsbelIPPU3TqNWfqS1OaFAFjUV1QAT4U2NQkUZJe1pMuj8Rhgy7BEpF-t9_03ReuHNsgzxAR2TazeWUO4AkWYurWexbkjNrUitSXHRNCfN2pmuCeznblwropsJYKcWtihucnKNlTASlhebBGnCdnQomC4ZHCZFBWReAg73ku2cSiVUqwiomS9jgT6BJO0i5deQxc0W21S9McdX6-f71bxDAwfihPTwDARhTmv2IDcDn0763rjWApOQjL32ejlcsdITNQtBJrNgWs9j7knP5SBUD9SkrWW5P0tFtRTbcqJs4ReXRflhK0tXSjsseOjmKeEqWkAvPz8TIlnFi4VaWqRE=w423-h557-no">
+
 **Figure 10:** The barbed fitting connecting the dosing tube to the first leg of the flocculator is circled in red.
 
 ## 1 LPS Plant Water Run
@@ -209,25 +236,49 @@ Do you intend to continue testing the plant once it is fixed?
 **Figure 11:** Pictured is the tube connection between the top of the sedimentation tank to the drain. It is connected by a combination of pipes and elbows, reinforced tubing from the DeFrees laboratory, and two male couplings. </p>
 
 ## EStaRS Testing
-The EStaRS filter was built in Spring 2017 with the purpose of accompanying the 1 LPS plant. The information used by the 1 LPS team to assemble the filter was found in the EStaRS Spring 2017 research report, found [here](https://www.overleaf.com/8262051cfnxfzxkmnsp#/29239180/).
+The Enclosed Stacked Rapid Sand (EstaRS) Filter is an adaptation of AguaClara's Stacked Rapid Sand (StaRS) Filter. These filters make the process of sand filtration much more effective in terms of filtration time and money. Sand filters use a large area, and as flow rate through the filter increases, so does the necessary area of the filter. By stacking smaller layers of sand in between inlets and outlets, AguaClara was able the decrease the overall area of a sand filter and the residence time of the filter. The EStaRS Filter can be used by itself as a stand alone filter or at the end of a treatment train. In Figure 12, below, the process of forward filtration is shown.
+
+![EStaRSFilter](https://github.com/AguaClara/1-LPS/blob/master/Images/EStaRSFilter.png?raw=true)
+
+**Figure 12**: EStaRS Filter in forward filtration.
+
+The current EStaRS filter was built in Spring 2017 with the purpose of accompanying the 1 LPS plant. The design that is now currently used is based off of a successful iteration of a previous EStaRS Filter built in 2013, then known as the Low Flow Stacked Rapid Sand Filter (LFSRSF).
+
+The information used by the 1 LPS team to assemble the filter was found in the EStaRS Spring 2017 research report, found [here](https://www.overleaf.com/8262051cfnxfzxkmnsp#/29239180/).
 
 <div class="alert alert-block alert-danger">
 This implies that this filter was made (for the first time) in 2017. It was designed circa 2011 I think.
 
 What is the EStaRS?
+
+Addressed.
 </div>
 
-The EStaRS filter had been previously tested for water-tightness, however, when the 1 LPS team tested it, there were leaks in the welds under the exit tank. The team took apart the piping to check the inside welds.
+The EStaRS filter was tested for water-tightness. There were leaks on welds, which were then sealed by re-welding, glue, or epoxy.  
 
-In future weeks, the team plans to weld the leaks and run water through the filter. The team will then conduct an analysis on the filter inlet and outlet manifolds to see if they can withstand the force of backwash. If the filter passes this analysis, the team will add sand to the filter and begin testing with clay and coagulant.
+Eventually, a filter becomes too clogged to effectively remove particles from the water flowing through it. At this point, the filter needs to be backwashed; the sand bed is fluidized by increasing the up-flow velocity of the filter. In the EStaRS Filter, this is done by pushing all of the influent water into the largest, bottom inlet. The water is pushed because of a pressure difference that occurs once the backwash siphon is opened. Once the sand bed is fluidized, the particles clogging the filter are dislodged and float to the top of the filter to be discharged as waste.
+
+A increase in up-flow velocity also increases the amount of force that inlet and outlet manifolds have to withstand. There was concern that in this new iteration of the EStaRS Filter, the upward force during backwash would cause the manifolds to snap or break. In order to figure out if this was a cause for concern, the team conducted a force analysis on the manifolds.
+
+The code for this analysis can be found below in the section "EStaRS Filter Force Analysis" under "Python Code."
+
+The total force that backwash will exert on the manifolds is 679.8 newtons. Assuming that this force will be equally distributed over each of the seven manifolds, the force exerted on each manifold is 97.11 newtons. When converted to pound-force, this is approximately 21.83 lbf. Dividing that by the force due to gravity, the force exerted on each manifold is about 10 kg.
+
+The team removed the top inlet manifold to test if 10 kg would cause it to break. Since 10 kg is equal to 10 L of water, the team applied a bucket of 10 L to the middle of the manifold. It did not break. Therefore, the team assumed that the filter manifolds can withstand the force of backwash.
+
+In the coming weeks, the team will fill the filter with sand and measure its performance by running tests with clay and coagulant.
 
 <div class="alert alert-block alert-danger">
 How will you evaluate the impact of backwash on the inlet and outlet manifolds? What data are you looking for? (Qualitatively or Quantitatively?) What is the criteria for passing? What are the concerns?
+
+Addressed.
 </div>
 
 ## Python Code
 
-### Variables
+### Dosing Tube Calculations
+
+#### Variables
 $g$: gravity
 
 ${h_L}$: head loss
@@ -240,14 +291,14 @@ $Q$: flow rate
 
 $K_e$: minor loss coefficient
 
-### Equations
+#### Equations
 The equation for the length of a dosing tube is:
 
 $$L = (\frac{g {h_L}_{,Max} \pi D^4}{128 \nu Q_{Max}} - \frac{Q_{Max}}{16 \pi \nu} \sum K_e)$$
 
 where ${h_L}_{,Max}$ is the maximum head loss and $Q_{Max}$ is the maximum flow rate in the tube.
 
-### Dosing Tube Calculations
+#### Code
 ```python
 #dosing tube calculations
 from aide_design.play import*
@@ -291,6 +342,58 @@ NTube = cdc.n_cdc_tube(FlowPlant, ConcDoseMax, ConcStock,
   DiamTubeAvail, HeadlossCDC, LenCDCTubeMax, temp, en_chem, KMinor)
 print('The number of CDC tubes is ',NTube,'.')
 ```
+
+### EStaRS Filter Force Analysis
+
+The purpose of this analysis is to see if the manifolds inside the EStaRS Filter can withstand the force of backwash without breaking. This is a concern because, in Honduras, plant operators noticed in the early iterations of the filter, that the manifolds would snap and disassemble during backwash. This was because the manifolds were not held into place within the filter body.
+
+#### Variables
+`EStaRS_height`: Distance from the ground to the top of the entrance tank.
+
+`sand_height`: Height of sand in filter body, from floor to top of first sand bed.
+
+`total_head_available`: Amount of head loss available to power backwash.
+
+`pressure_head`: Total head converted to a pressure.
+
+`force_of_backwash`: Force that will be exerted on the manifold pipes during backwash. It is assumed that this force will be equally distributed over each of the seven manifolds.
+
+$g$: gravity
+
+#### Equations
+
+The equation for finding pressure from head is:
+
+$$ P_h = \rho g h$$
+
+where $h$ is the total head available, and $\rho$ is the density of water.
+
+The equation for finding force from pressure is:
+
+$$ F = P A $$
+
+where $A$ is the area of a cross-section of the filter.
+
+#### Code
+```python
+rho_water = 1*(u.g/u.cm**3) #density of water
+g = pc.gravity #gravity
+EStaRS_height = 185*(u.cm) #measured
+EStaRS_diameter = 12*(u.inch) #known
+EStaRS_area = pc.area_circle(EStaRS_diameter)
+sand_height = 6 * 15*(u.cm) #six sand beds each at a height of 15 # cm
+
+total_head_available = EStaRS_height - sand_height
+
+pressure_head = rho_water*g*total_head_available
+
+force_of_backwash = pressure_head*EStaRS_area
+
+print('The total force that backwash will exert on the manifolds is
+      ,(force_of_backwash.to(u.N)),'. The force exerted on each manifold is
+      ,(force_of_backwash.to(u.N))/7,'.')
+```
+
 ## Contact Information
 The contact information for the Spring 2018 1 LPS Plant Testing Team is as follows:
 - Sung Min Kim, EnvE '19
