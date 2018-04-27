@@ -116,14 +116,14 @@ This is a great figure, but consider labeling what the CDC and the entrance tank
 ## Dosing Tube Calculations
 In order to get the proper flow rate of chemicals into the plant, the team needed to calculate the correct length and sizes for the dosing tubes. The yellow arrows in Figure 8, below, are pointing to the dosing tubes on the CDC apparatus. There are two types of dosing tubes that are two different diameters.
 
-The first tube connects the constant head tank (CHT), which contains the chemical stock, to a tee fitting on the lever arm. The CHT is a type of flow controller that maintains a constant water level in its tank. Its operation is governed by the Hagen-Poiseuille equation:
+The first tube connects the constant head tank (CHT), which contains the chemical stock, to a tee fitting on the lever arm. The CHT is a type of flow controller that maintains a constant chemical level in its tank. The level is maintained by a float valve connected to a larger stock tank above. Its operation is governed by the Hagen-Poiseuille equation:
 
 $$ Q = \frac{h_f g \pi D^4}{128 \nu L} $$
 
 where $Q$ is flow rate, $h_f$ is the head difference between the water level in the constant head tank and the slider on the lever, $D$ is the diameter of the tubing, $\nu$ is the kinematic viscosity, and $L$ is the length of the tubing.
 
 
-The head difference can be changed by moving slider on the lever arm. A change in head, $h_f$, causes an increase in flow rate, $Q$, out of the CHT, therefore increasing the coagulant dosage to the plant. An image of the CHT is shown below, in figure 7. The CHT is the small container in the upper left corner of each figure.
+The head difference can be changed by moving the slider on the lever arm. A change in head, $h_f$, causes an increase in flow rate, $Q$, out of the CHT, therefore increasing the coagulant dosage to the plant. An image of the CHT is shown below, in Figure 7. The CHT is the small container in the upper left corner of each figure.
 
 
 <p style="text-align: center;">
@@ -147,7 +147,28 @@ What is in the constant head tank?
 
 </p>
 
-The tube that connects the CHT to the tee fitting on the lever arm needs to be a very small diameter. This is so that major losses will dominate within the tube over the calculated length, leading to the proper flow rate out of the tube. The tube that connects the tee fitting to the influent water needs to be big enough that surface tension will not dominate within the tube, and water and air can flow freely through the tube.
+The relationship between the flow of the plant and the coagulant dosage needs to be linear in order to be effective. This means that the relationship between flow rate and head loss needs to be linear. The actual head in the dose controller is due to both major and minor losses. In order for the relationship to remain linear, major losses need to dominate, as shown below in Figure 9.
+
+![LinearRelationship](https://github.com/AguaClara/1-LPS/blob/master/Images/LinearRelationshipCDC.png?raw=true)
+
+**Figure 9**: Flow rate versus head loss while varying types of head loss. Images courtesy of Monroe Weber-Shirk, found [here](https://confluence.cornell.edu/display/cee4540/Syllabus).
+
+Head loss due to friction, $h_f$, also known as major losses, is
+
+$$ h_f = \frac{128 \nu Q L}{g \pi D^4} $$
+
+Head loss due to expansions, $h_e$, also known as minor losses, is
+
+$$ h_e = \frac{8 Q^2}{g (\pi)^2 D^4} \sum K_e $$
+
+The equation for the actual head loss is shown below, which is a combination of both major and minor losses. This is shown as the blue line in figure 9.
+
+$$ h_L (Q) = (\frac{128 \nu L}{g \pi D^4} + \frac{8Q}{g (\pi)^2 D^4} \sum K_e) Q $$
+
+By minimizing the amount of expansions or contractions in the dose controller tubing, as well as creating more friction by decreasing diameter, $D$, major losses will dominate.
+
+
+Therefore, the tube that connects the CHT to the tee fitting on the lever arm needs to be a very small diameter. Major losses will then dominate within the tube over the calculated length, leading to the proper flow rate out of the tube. The tube that connects the tee fitting to the influent water needs to be big enough that surface tension will not dominate within the tube, and water and air can flow freely through the tube.
 
 <div class="alert alert-block alert-danger">
 Great! Consider describing the difference between minor and major losses and including the equations in LaTeX here to show how this statement is backed up by the math.
@@ -159,7 +180,7 @@ The length of the CDC tube connecting the CHT to the tee fitting will be 0.4811 
 
 
 ## CDC Plant Integration
-The CDC needed to be connected and integrated into the rest of the plant as shown previously in Figure 7. The chemicals would flow from the CHT to the slider on the lever arm and through the dosing tube to the plant. As determined in the section "Dosing Tube Calculations", the size of the dosing tube connecting the CHT to the lever arm needed to be $\frac{1}{16}$ inches in diameter and the dosing tube $\frac{1}{4}$ inches. A plastic tee was acquired to connect the two dosing tubes
+The CDC needed to be connected and integrated into the rest of the plant as shown previously in Figure 6. The chemicals would flow from the CHT to the slider on the lever arm and through the dosing tube to the plant. As determined in the section "Dosing Tube Calculations", the size of the dosing tube connecting the CHT to the lever arm needed to be $\frac{1}{16}$ inches in diameter and the dosing tube $\frac{1}{4}$ inches. A plastic tee was acquired to connect the two dosing tubes
 
 ## 1 LPS Plant Water Run
 The teams main focus was to run water completely through the 1 LPS plant. Ideally the team would run the plant with the EStaRS filter but because it had not been tested, the team is separately troubleshooting and water testing the EStaRS.
@@ -184,7 +205,11 @@ Do you intend to continue testing the plant once it is fixed?
 **Figure 9:** Pictured is the tube connection between the top of the sedimentation tank to the drain. It is connected by a combination of pipes and elbows, reinforced tubing from the DeFrees laboratory, and two male couplings. </p>
 
 ## EStaRS Testing
-The EStaRS filter was built in Spring 2017 with the purpose of accompanying the 1 LPS plant. The information used by the 1 LPS team to assemble the filter was found in the EStaRS Spring 2017 research report, found [here](https://www.overleaf.com/8262051cfnxfzxkmnsp#/29239180/).
+The Enclosed Stacked Rapid Sand (EstaRS) Filter is an adaptation of AguaClara's Stacked Rapid Sand (StaRS) Filter. These filters make the process of sand filtration much more effective in terms of filtration time and money. Sand filters use a large area, and as flow rate through the filter increases, so does the necessary area of the filter. By stacking
+
+The current EStaRS filter was built in Spring 2017 with the purpose of accompanying the 1 LPS plant. The design that is now currently used is based off of a successful iteration of a previous EStaRS Filter built in 2013, then known as the Low Flow Stacked Rapid Sand Filter (LFSRSF).
+
+The information used by the 1 LPS team to assemble the filter was found in the EStaRS Spring 2017 research report, found [here](https://www.overleaf.com/8262051cfnxfzxkmnsp#/29239180/).
 
 <div class="alert alert-block alert-danger">
 This implies that this filter was made (for the first time) in 2017. It was designed circa 2011 I think.
@@ -192,7 +217,6 @@ This implies that this filter was made (for the first time) in 2017. It was desi
 What is the EStaRS?
 </div>
 
-answer.
 
 The EStaRS filter had been previously tested for water-tightness, however, when the 1 LPS team tested it, there were leaks in the welds under the exit tank. The team took apart the piping to check the inside welds.
 
@@ -204,7 +228,9 @@ How will you evaluate the impact of backwash on the inlet and outlet manifolds? 
 
 ## Python Code
 
-### Variables
+### Dosing Tube Calculations
+
+#### Variables
 $g$: gravity
 
 ${h_L}$: head loss
@@ -217,14 +243,14 @@ $Q$: flow rate
 
 $K_e$: minor loss coefficient
 
-### Equations
+#### Equations
 The equation for the length of a dosing tube is:
 
 $$L = (\frac{g {h_L}_{,Max} \pi D^4}{128 \nu Q_{Max}} - \frac{Q_{Max}}{16 \pi \nu} \sum K_e)$$
 
 where ${h_L}_{,Max}$ is the maximum head loss and $Q_{Max}$ is the maximum flow rate in the tube.
 
-### Dosing Tube Calculations
+#### Code
 ```python
 #dosing tube calculations
 from aide_design.play import*
@@ -268,6 +294,16 @@ NTube = cdc.n_cdc_tube(FlowPlant, ConcDoseMax, ConcStock,
   DiamTubeAvail, HeadlossCDC, LenCDCTubeMax, temp, en_chem, KMinor)
 print('The number of CDC tubes is ',NTube,'.')
 ```
+
+### EStaRS Filter Force Analysis
+
+#### Variables
+
+#### Equations
+
+#### Code
+
+
 ## Contact Information
 The contact information for the Spring 2018 1 LPS Plant Testing Team is as follows:
 - Sung Min Kim, EnvE '19
