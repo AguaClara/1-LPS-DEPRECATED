@@ -1,14 +1,16 @@
 # 1 LPS Plant Testing
 ### Manual
 #### Sung Min Kim, Sidney Lok, Erica Marroquin
-#### April 27th, 2018
+#### May 11th, 2018
 
 <div class="alert alert-block alert-danger">
 Please do not delete my comments. Address them for the next submission and then I will use the comments to check for corrections. If you disagree with my comments, just add one below mine.
 </div>
 
 ## Introduction
-The goal of the 1 Liter per Second (1 LPS) Plant Testing team this semester is to complete the fabrication of the current plant and to test the plant's performance. In Fall 2016, the 1 L/s Plant was developed based on AguaClara technology to bring sustainable water treatment to communities with smaller needs (300 people per plant). The team's mission is to create inexpensive plants that treat at a flowrate of 1 liter per second for small towns and villages that do not have the means to finance surface water treatment due to upfront costs.
+The goal of the 1 Liter per Second (1 LPS) Plant Testing team this semester is to complete the fabrication of the current 1 LPS plant. If time perfmits, the team also has plans to test the performance of the plant. In Fall 2016, the 1 LPS plant was developed based on pre-existing AguaClara technology to bring sustainable water treatment to small communities of about 300 people.
+
+The team's mission is to create inexpensive plants that treat at a flowrate of 1 liter per second for small towns and villages that do not have the means to finance surface water treatment due to upfront costs.
 
 <div class="alert alert-block alert-danger">
 Insert "water" into last sentence after "inexpensive plants that treat"
@@ -22,10 +24,11 @@ Currently, the 1 LPS plant consists of an entrance tank, flocculator and sedimen
 The EStaRS has been extensively tested and in use in India. What about it needs to be tested?
 </div>
 
-From the beginning of March to mid April, the DeFrees Lab was under maintenance due to a build up of water and sludge in the drain. Initially, the team thought the lab would be closed for two weeks but because this classified as an administrative and safety issue, the lab was closed for roughly six weeks. Because the lab was closed, the team was unable to water test or set up performance testing in those weeks and thus, this report lacks significant research data.
 
 <div class="alert alert-block alert-danger">
 Remove this paragraph for final submission.
+
+Removed.
 </div>
 
 ## Lever Arm Perforation
