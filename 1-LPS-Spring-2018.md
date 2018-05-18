@@ -8,20 +8,23 @@ Please do not delete my comments. Address them for the next submission and then 
 </div>
 
 ## Introduction
-The goal of the 1 Liter per Second (1 LPS) Plant Testing team this semester is to complete the fabrication of the current 1 LPS plant. If time perfmits, the team also has plans to test the performance of the plant. In Fall 2016, the 1 LPS plant was developed based on pre-existing AguaClara technology to bring sustainable water treatment to small communities of about 300 people.
+The goal of the 1 Liter per Second (1 LPS) Plant Testing team this semester is to complete the fabrication of the current 1 LPS plant. If time permits, the team also has plans to test the performance of the plant. In Fall 2016, the 1 LPS plant was developed based on pre-existing AguaClara technology to bring sustainable water treatment to small communities of about 300 people.
 
-The team's mission is to create inexpensive plants that treat at a flowrate of 1 liter per second for small towns and villages that do not have the means to finance surface water treatment due to upfront costs.
+The team's mission is to create inexpensive water plants that treat at a flow rate of 1 liter per second for small towns and villages that do not have the means to finance surface water treatment due to upfront materials and construction costs.
 
 <div class="alert alert-block alert-danger">
 Insert "water" into last sentence after "inexpensive plants that treat"
+-addressed
 
 specify what surface water treatment that they can't afford (vague)
+-addressed
 </div>
 
-Currently, the 1 LPS plant consists of an entrance tank, flocculator and sedimentation tank. The performance testing will be done using clay and coagulant to mimic real-world conditions, following traditional AguaClara concentrations. In addition to plant testing, the team has been fixing the Enclosed Stacked Rapid Sand (EStaRS) filter in order to observe differences in NTU results and to complete the full water treatment train (flocculation, sedimentation and filtration). However, for now, the plant is being run without the EStaRS as the filter itself has not been performance tested. The EStaRS in the DeFrees Lab was built in Spring and Summer 2017 (refer below to EStaRS Testing) but had only been fabricated and minimally water tested.
+Currently, the 1 LPS plant consists of an entrance tank, flocculator and sedimentation tank. The performance testing will be done using clay and coagulant to mimic real-world conditions, following traditional AguaClara concentrations. In addition to plant testing, the team has been fixing the Enclosed Stacked Rapid Sand (EStaRS) filter in order to observe differences in NTU results and to complete the full water treatment train (flocculation, sedimentation and filtration). However, for now, the plant is being run without the EStaRS as the filter itself has not been performance tested. While the EStaRS has been extensively tested and in use in India, the EStaRS in the DeFrees Lab was built in Spring and Summer 2017 (refer below to EStaRS Testing) specifically to be modular to the 1 L/s plant. Due to scaling dynamics, this current EStaRS needs to be tested but had only been fabricated and minimally water tested.
 
 <div class="alert alert-block alert-danger">
 The EStaRS has been extensively tested and in use in India. What about it needs to be tested?
+-addressed
 </div>
 
 
@@ -32,10 +35,11 @@ Removed.
 </div>
 
 ## Lever Arm Perforation
-One of the first tasks the team had to complete was securing the lever arm onto the side of the entrance tank. The lever arm is a piece of equipment attached to the side of the entrance tank that allows plant operators to control the dosage of the coagulant going into the influent water. As pictured in Figure 1, the lever arm consists of a slider on the lever arm that is the moving component controlling the chemical dosage and a metal bar at the back that fits into the hole at the side of the entrance tank pictured in Figure 2.
+One of the first tasks the team had to complete was securing the lever arm onto the side of the entrance tank. The lever arm is a piece of equipment attached to the side of the entrance tank that allows plant operators to control the dose of the coagulant going into the influent water. As pictured in Figure 1, the lever arm consists of a slider on the lever arm that is the moving component controlling the chemical dosage and a metal bar at the back that fits into the hole at the side of the entrance tank pictured in Figure 2.
 
 <div class="alert alert-block alert-danger">
 Consider "dose" instead of "dosage"
+-addressed
 </div>
 
 <p style = "text-align: center;">
@@ -55,10 +59,11 @@ The team determined that a perforation should be made in the metal bar of the le
 <p style = "text-align: center;">
 <img src="https://goo.gl/UcBDZJ" height=400>
 
-**Figure 3:** A schematic of how the modified lever arm fits into the entrance tank. There was a perforation made in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 2, a pin was inserted into the perforation to secure the lever arm onto the entrance tank. </p>
+**Figure 3:** A top down schematic of how the modified lever arm fits into the entrance tank. There was a perforation made in the metal bar of the lever arm in order for a pin to fit inside and act as a stopper. After being slid into the hole shown in Figure 2, a pin was inserted into the perforation to secure the lever arm onto the entrance tank. </p>
 
 <div class="alert alert-block alert-danger">
 Include what view Figure 3 is (top down)
+-addressed
 </div>
 
 The team first found a piece to act as a pin and determined the size of it. The size of the piece was unimportant as long as its diameter was smaller than that of the metal bar for the lever arm. The lever arm was perforated according to the size of the pin using a mill as shown in Figure 4. The pin fit snugly into the perforation as shown in Figure 5.
@@ -76,16 +81,18 @@ The team first found a piece to act as a pin and determined the size of it. The 
 ## CDC Apparatus
 During Spring 2017, AguaClara fabricated a new design of the chemical dose controller (CDC). The past research report can be found [here](https://www.overleaf.com/read/zfcbvtrykhwc#/28982452/). The CDC system was designed to maintain a constant chemical dose to the treatment process as the plant flow rate and influent turbidity change. The main difference from the old design and the new is that slimmer PVC pipes were used in the new design. The current CDC system is incomplete for chlorination but is complete for coagulation, which the team is testing this semester.
 
-The CDC works in conjunction with the lever arm on the side of the entrance tank. The team has to ensure that the height of the lever arm when horizontal is the same height as the coagulant level of the CDC when the float values are submerged. Because running the 1 LPS plant first with water was the priority, the team has not properly made sure that the heights were equal on the pole. The team plans to match the heights as shown in Figure 6 after assembling all the materials needed for the coagulant run.
+The CDC works in conjunction with the lever arm on the side of the entrance tank. The team has to ensure that the height of the lever arm when horizontal is the same height as the coagulant level of the CDC when the float values are submerged. Running the 1 LPS plant first with water was the team's priority. In order to do so, the team has not properly made sure that the heights were equal on the pole since adjustment was unnecessary for the water run. The team plans to match the heights as shown in Figure 6 after assembling all the materials needed for the coagulant run.
+
+The height of the lever arm needs to be the height of the coagulant level of the CDC when the float values are submerged to keep a constant headloss. The CDC apparatus' height can be adjusted by unscrewing the screws in the wooden plate. Due to the time
 
 <div class="alert alert-block alert-danger">
-Why does the height of the lever arm need to be the height of coagulant level of the CDC when the float valves are submerged? - unresolved
+Why does the height of the lever arm need to be the height of coagulant level of the CDC when the float valves are submerged? - addressed
 
-How will you match the heights? - unresolved
+How will you match the heights? - addressed
 
-Starting a sentence with "because" is too informal for the research report. - unresolved
+Starting a sentence with "because" is too informal for the research report. - addressed
 
-Why does this fix going to occur after assembling all the materials needed for a coagulant run? What else do you need? - unresolved
+Why does this fix going to occur after assembling all the materials needed for a coagulant run? What else do you need? - addressed
 
 Is the lever arm technically part of the CDC? that might be a good way to organize it.
 </div>
@@ -170,10 +177,11 @@ https://lh3.googleusercontent.com/ZW035qZku59gDco-FifwB5iBlsX9wobOL4MU-02HyBIExU
 
 **Figure 9:** The tee connector was attached to the slider on the lever arm with a flat-headed screw.
 
-A hole was drilled into the side of the connector to piece a flat-headed screw through it and attach it to the slider on the lever arm. The dosing tubes had barbed fittings to make water-tight connections to the tee connector. The larger diameter dosing tube connected right above the rapid mix of the first leg of the flocculator. The team drilled a $\frac{1}{4}$ inch hole into the side of the first leg of the flocculator at an arbitrary height above the rapid mix and tapped it as shown in Figure 10.
+In order to attach the tee connector onto the slider of the lever arm, a hole was drilled into the side of the piece to Insert a flat-headed screw through it. The dosing tubes had barbed fittings to make water-tight connections to the tee connector. The larger diameter dosing tube connected right above the rapid mix of the first leg of the flocculator. The team drilled a $\frac{1}{4}$ inch hole into the side of the first leg of the flocculator at an arbitrary height above the rapid mix and tapped it as shown in Figure 10.
 
 <div class="alert alert-block alert-danger">
 Consider revising first sentence.
+-addressed
 </div>
 
 <p style="text-align: center;">
@@ -182,16 +190,18 @@ Consider revising first sentence.
 **Figure 10:** The barbed fitting connecting the dosing tube to the first leg of the flocculator is circled in red.
 
 ## 1 LPS Plant Water Run
-The team's main focus was to run water completely through the 1 LPS plant. Depending on the progress of EStaRS testing, the team would like to run the plant with the filter to observe changes in the NTU results.
+The team's main focus was to run water completely through the 1 LPS plant. Depending on the progress of EStaRS testing, the team would like to run the plant with the filter to observe changes in the turbidity results.
 
 <div class="alert alert-block alert-danger">
 Change "NTU results" to "turbidity results"
+-addressed
 </div>
 
-The plant has been fully connected to the water source and the drain since March as shown in Figure 8. Once the DeFrees Lab was cleared, the team water tested the plant and welded two minor leaks at the inlet and outlet. The plant is ready to go through its coagulant run.
+The plant has been fully connected to the water source and the drain as shown in Figure 8. Once the DeFrees Lab was cleared, the team water tested the plant and welded two minor leaks at the inlet and outlet. The plant is ready to go through its coagulant run.
 
 <div class="alert alert-block alert-danger">
 Remove "since March" - The inclusion of lab issues isn't important and may confuse future readers.
+-addressed
 </div>
 
 <p style="text-align: center;">
@@ -204,10 +214,11 @@ Seeing this figure makes me want you all to include a picture of the whole appar
 </div>
 
 ## EStaRS Testing
-The Enclosed Stacked Rapid Sand (EstaRS) Filter is an adaptation of AguaClara's Stacked Rapid Sand (StaRS) Filter. These filters make the process of sand filtration much more effective in terms of filtration time and money. Sand filters use a large area, and as flow rate through the filter increases, so does the necessary area of the filter. By stacking smaller layers of sand in between inlets and outlets, AguaClara was able the decrease the overall area of a sand filter and the residence time of the filter. The EStaRS Filter can be used by itself as a stand alone filter or at the end of a treatment train. In Figure 12, below, the process of forward filtration is shown.
+The Enclosed Stacked Rapid Sand (EstaRS) Filter is an adaptation of AguaClara's Stacked Rapid Sand (StaRS) Filter. These filters make the process of sand filtration much more effective in terms of filtration time and cost. Sand filters use a large area, and as flow rate through the filter increases, so does the necessary area of the filter. By stacking smaller layers of sand in between inlets and outlets, AguaClara was able the decrease the overall area of a sand filter and the residence time of the filter. The EStaRS Filter can be used by itself as a stand alone filter or at the end of a treatment train. In Figure 12, below, the process of forward filtration is shown.
 
 <div class="alert alert-block alert-danger">
 Change money to cost
+-addressed
 </div>
 
 ![EStaRSFilter](https://github.com/AguaClara/1-LPS/blob/master/Images/EStaRSFilter.png?raw=true)
@@ -218,16 +229,18 @@ The current EStaRS filter was built in Spring 2017 with the purpose of accompany
 
 The information used by the 1 LPS team to assemble the filter was found in the EStaRS Spring 2017 research report, found [here](https://www.overleaf.com/8262051cfnxfzxkmnsp#/29239180/).
 
-The EStaRS filter was tested for water-tightness. There were leaks on welds, which were then sealed by re-welding, glue, or epoxy.
+The EStaRS filter was tested for water-tightness. There were leaks on welds, which could have been sealed by re-welding, glue, or epoxy. The team decided to re-weld the leaks.
 
 <div class="alert alert-block alert-danger">
-Rough transition from above paragraph to below paragraph. (Maybe move welding info to later in the section)
+Rough transition from above paragraph to below paragraph. (Maybe move welding info to later in the section
+-addressed
 </div>
 
-Eventually, a filter becomes too clogged to effectively remove particles from the water flowing through it. At this point, the filter needs to be backwashed; the sand bed is fluidized by increasing the up-flow velocity of the filter. In the EStaRS Filter, this is done by pushing all of the influent water into the largest, bottom inlet. The water is pushed because of a pressure difference that occurs once the backwash siphon is opened. Once the sand bed is fluidized, the particles clogging the filter are dislodged and float to the top of the filter to be discharged as waste.
+Eventually, a filter becomes too clogged to effectively remove particles from the water flowing through it. At this point, the filter needs to be backwashed; the sand bed is fluidized by increasing the up-flow velocity of the filter. In the EStaRS Filter, this is done by pulling all of the influent water into the largest, bottom inlet. The water is pulled because of a pressure difference that occurs once the backwash siphon is opened. Once the sand bed is fluidized, the particles clogging the filter are dislodged and float to the top of the filter to be discharged as waste.
 
 <div class="alert alert-block alert-danger">
 Consider using a different word other than push. It's more of a pull.
+-addressed
 </div>
 
 A increase in up-flow velocity also increases the amount of force that inlet and outlet manifolds have to withstand. There was concern that in this new iteration of the EStaRS Filter, the upward force during backwash would cause the manifolds to snap or break. In order to figure out if this was a cause for concern, the team conducted a force analysis on the manifolds.
