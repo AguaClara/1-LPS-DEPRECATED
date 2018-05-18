@@ -13,10 +13,6 @@ The 1 L/s Plant Testing team is working on getting the plant up and running so t
 ## Links to Reports and Presentations
 [Spring 2018 Symposium](https://docs.google.com/presentation/d/1bsQvF7E3sRgvt_R3UUIwnSWJ7V4XimKN0mjClIBsYso/edit?usp=sharing)
 
-<<<<<<< HEAD
 [Spring 2018 Final Presentation](https://docs.google.com/presentation/d/1ZUqWIdNvOeXLw61G79KRRYRwp7IKMK_LN-B7A6c8fUU/edit#slide=id.p3)
 
 [Spring 2018 Final Report](https://github.com/AguaClara/1-LPS/blob/master/1-LPS-Spring-2018-Final.pdf)
-=======
-[Spring 2018 Final Presentation](https://docs.google.com/presentation/d/1ZUqWIdNvOeXLw61G79KRRYRwp7IKMK_LN-B7A6c8fUU/edit?usp=sharing)
->>>>>>> ef1f52b4d912e1de436fe5361a1e83d0f515a387
